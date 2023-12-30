@@ -1,0 +1,90 @@
+body {
+    background: url("../image/img.jpg");
+}
+.container{
+    max-width: auto;
+    height: 500px;
+}
+.traffic_light{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #000;
+}
+#red{
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    margin: 1px;
+    background-color: white;
+}
+#yellow{
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    margin: 1px;
+    background-color: white;
+}
+#green{
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid #000;
+    margin: 1px;
+    background-color: white;
+}
+.traffic_light button {
+    border-radius: 18px;
+    border: 3px solid white;
+    height: 50px;
+    width: 100px;
+}
+.traffic_light button:hover{
+    background: #00ff15;
+    color: white;
+    border: 1px solid white;
+}
+#xang1{
+    width: 100px;
+    height: 10px;
+    background-color: green;
+}
+#xang2{
+    width: 100px;
+    height: 10px;
+    background-color: green;
+    margin: 5px 0; 
+}
+.street {
+    background-image: url("../image/street.jpg");
+    height: 350px;
+    width: 1330px;
+}
+#car_1{
+    margin: 30px 0;
+}
+#car_2 {
+    margin: 40px 5px;
+}
+.end {
+   background-color: black;
+   width: 30px;
+   height: 350px;
+   margin: -380px 1200px;
+}
+.btn button {
+    width: 80px;
+    font-weight: 600;
+    text-align: center;
+    height: 50px;
+    border-radius: 22px;
+    border: 1px solid #000;
+    margin: 5px 600px;
+}
+.btn button:hover{
+    background: #000;
+    color: white;
+}
+
+
